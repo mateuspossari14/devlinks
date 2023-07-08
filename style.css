@@ -30,6 +30,7 @@
 body {
   /*backgroud: color image repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover; /* var chamando a variável */
+  height: 100vh;
 }
 
 body * {
@@ -175,4 +176,15 @@ footer {
   padding: 24px 0px;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assests/bg-desktop.jpg)
+  }
+
+  .light {
+    --bg-url: url(./assests/bg-desktop-light.jpg)
+  }
 }
