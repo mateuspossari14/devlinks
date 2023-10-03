@@ -31,7 +31,6 @@ body {
   /*backgroud: color image repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover; /* var chamando a variável */
   height: 100vh;
-  overflow: hidden;
 }
 
 body * {
